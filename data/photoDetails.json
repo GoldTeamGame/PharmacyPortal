@@ -1,0 +1,40 @@
+{
+    "photo": [
+        {
+            "filename": "background.jpg",
+            "date": "Alex",
+            "location": "100",
+            "album": "100",
+            "occassion": "55",
+            "photo": "..\/images\/background.jpg",
+            "delete": "..\/images\/delete.png"
+        },
+        {
+            "filename": "mountains.jpg",
+            "date": "Jon",
+            "location": "100",
+            "album": "56",
+            "occassion": "89",
+            "photo": "..\/images\/mountains.jpg",
+            "delete": "..\/images\/delete.png"
+        },
+        {
+            "filename": "party2.jpg",
+            "date": "Ross",
+            "location": "78",
+            "album": "100",
+            "occassion": "98",
+            "photo": "..\/images\/party2.jpg",
+            "delete": "..\/images\/delete.png"
+        },
+        {
+            "filename": "sunset.jpg",
+            "date": "Dylan",
+            "location": "20",
+            "album": "78",
+            "occassion": "100",
+            "photo": "..\/images\/sunset.jpg",
+            "delete": "..\/images\/delete.png"
+        }
+    ]
+}

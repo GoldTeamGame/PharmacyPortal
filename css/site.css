@@ -1,0 +1,398 @@
+/* File: site.css 
+ * mp02
+ */
+
+body {
+	background-image: url("../images/pharmacy2.jpg");
+	background-repeat: no-repeat;
+	background-size: 150% 150%;
+	background-attachment: fixed;
+	background-position: center;
+}
+* {
+   margin: 0;
+   border: 0;
+   padding: 0;
+   box-sizing: border;
+}
+
+.error-msg {
+   background-color: pink;
+/*   margin-left: 5px;*/
+}
+
+.float-left {
+   float: left;
+}
+
+header.site {
+   width: 100%;
+   background-color: firebrick;
+   overflow: auto;
+}
+
+footer.site {
+   font-size: 1.3 rem;
+   text-align: center;
+   color: #333333;
+   margin-top: 30px;
+}
+
+
+header.site section#content {
+   width: 85%;
+   height: 76px;
+}
+
+/*header.site section#content figure#logo,*/
+header.site section#content figure#logo img {
+   width: 243px;
+   height: 73px;
+}
+
+header.site section#content aside#title {
+   font-size: 2.5rem;
+   text-align: center;
+   margin-left: 140px;
+   padding: 20px;
+   color: darkgray;
+}
+
+header.site aside#user-welcome {
+   width: 12%;
+   margin-left: 86%;
+   margin-top: 45px;
+   font-size: 1.1rem;
+   color: darkgray;
+}
+
+/*----------------------------------------
+ * Multi-page specific.
+ *--------------------------------------*/
+main#page-index,
+main#page-login,
+main#page-createAccount,
+main#page-error,
+main#page-forgotPassword,
+main#page-resetPassword {
+   width: 45%;
+   text-align: center;
+   border-radius: 6px;
+   margin: 50px auto;
+   height: 13rem;
+   background-color: firebrick;
+   padding: 2rem 0;
+}
+
+/*----------------------------------------
+ * Page index.html specific.
+ *--------------------------------------*/
+main#page-index div#signup h1 {
+   color: darkgray;
+   margin-bottom: 60px;
+}
+
+main#page-index div#signup p {
+   font-size: 1.1rem;
+}
+
+main#page-index div#signup p a {
+   text-decoration: none;
+   color: #5199EE;
+}
+
+/*----------------------------------------
+ * Page login.html, createAccount.html specific.
+ *--------------------------------------*/
+main#page-login form#authenticate,
+main#page-createAccount form#authenticate {
+   width: 70%;
+   height: 12rem;
+   background-color: #666666;
+   margin: 0 auto;
+   border-radius: 6px;
+}
+
+main#page-login form#authenticate {
+   height: 13rem;
+}
+
+main#page-login form#authenticate fieldset p#prompt,
+main#page-createAccount form#authenticate fieldset p#prompt {
+   font-size: 2rem;
+   margin-bottom: 20px;
+   color: #5199EE;
+   margin-top: 2rem;
+}
+
+main#page-login form#authenticate fieldset p input#username,
+main#page-login form#authenticate fieldset p input#password,
+main#page-createAccount form#authenticate fieldset p input#username,
+main#page-createAccount form#authenticate fieldset p input#email,
+main#page-createAccount form#authenticate fieldset p input#password,
+main#page-createAccount form#authenticate fieldset p input#confirm {
+   font-size: 1.1rem;
+   padding: 3px;
+   margin-bottom: 6px;
+   border-radius: 5px;
+}
+
+main#page-login form#authenticate fieldset div,
+main#page-createAccount form#authenticate fieldset div {
+   margin-top: 10px;
+}
+
+main#page-login form#authenticate fieldset div a,
+main#page-createAccount form#authenticate fieldset div a {
+   text-decoration: none;
+   color: #DDCCDD;
+}
+
+main#page-login form#authenticate fieldset div button#cancel,
+main#page-login form#authenticate fieldset div button#login,
+main#page-createAccount form#authenticate fieldset div button#cancel,
+main#page-createAccount form#authenticate fieldset div button#create {
+   border-radius: 6px;
+   width: 4rem;
+   height: 1.5rem;
+}
+
+main#page-login form#authenticate fieldset div button#cancel,
+main#page-createAccount form#authenticate fieldset div button#cancel {
+   background-color: #EE3322;
+}
+
+main#page-login form#authenticate fieldset div button#login,
+main#page-createAccount form#authenticate fieldset div button#create {
+   background-color: #338833;
+   cursor: pointer;
+}
+
+/*----------------------------------------
+ * Page createAccount.html specific.
+ *--------------------------------------*/
+main#page-createAccount {
+   height: 17rem;
+}
+
+main#page-createAccount form#authenticate {
+   width: 70%;
+   height: 17rem;
+}
+
+main#page-createAccount form#authenticate fieldset p input {
+   width: 15rem;
+}
+/*----------------------------------------
+ * Page error.php specific.
+ *--------------------------------------*/
+main#page-error div {
+   height: 12rem;
+}
+
+main#page-error div p {
+   margin-bottom: 3rem;
+}
+
+main#page-error div p#error img {
+   vertical-align: middle;
+   margin-right: 1rem;
+}
+
+main#page-error div p#error span {
+   font-size: 1.5rem;
+   color: darkgray;
+}
+
+main#page-error div p#error-resolution {
+   font-size: 1.2rem;
+}
+
+main#page-error div p#error-resolution a {
+   text-decoration: none;
+   color: #2222FF;
+}
+
+/*----------------------------------------
+ * Page forgotPassword.html specific.
+ *--------------------------------------*/
+main#page-forgotPassword form#authenticate {
+   width: 80%;
+   margin: 0 auto;
+}
+
+main#page-forgotPassword form#authenticate fieldset p {
+   font-size: 1.1rem;
+   margin-bottom: 2rem;
+   color: #6699CC;
+}
+
+main#page-forgotPassword form#authenticate fieldset p input#username,
+main#page-forgotPassword form#authenticate fieldset p button#ok {
+   border-radius: 6px;
+   font-size: 1.1rem;
+   cursor: pointer;
+}
+
+/*main#page-forgotPassword form#authenticate fieldset p button#ok a {*/
+/*   text-decoration: none;*/
+/*   color: #DDCCDD;*/
+/*   cursor: pointer;*/
+/*}*/
+
+main#page-forgotPassword form#authenticate fieldset p input#username {
+   width: 15rem;
+   line-height: 1.8rem;
+   vertical-align: bottom;
+   margin-right: 1rem;
+   padding: 2px;
+}
+
+main#page-forgotPassword form#authenticate fieldset p button#ok {
+   background-color: #338833;
+   color: #DDCCDD;
+   width: 3rem;
+   height: 2rem;
+}
+
+/*----------------------------------------
+ * Page resetPassword.html specific.
+ *--------------------------------------*/
+main#page-resetPassword form#authenticate {
+   width: 80%;
+   height: 12rem;
+   margin: 0 auto;
+}
+
+main#page-resetPassword form#authenticate fieldset p#instructions {
+   font-size: 2rem;
+   margin-bottom: 2rem;
+   color: #6699CC;
+}
+
+main#page-resetPassword form#authenticate fieldset p input#password,
+main#page-resetPassword form#authenticate fieldset p input#confirm {
+   margin-bottom: 0.5rem;
+
+}
+
+main#page-resetPassword form#authenticate fieldset p input#password,
+main#page-resetPassword form#authenticate fieldset p input#confirm,
+main#page-resetPassword form#authenticate fieldset div button#change {
+   font-size: 1.1rem;
+   height: 1.8rem;
+   border-radius: 6px;
+   padding: 3px;
+}
+
+main#page-resetPassword form#authenticate fieldset div button#change {
+   width: 5rem;
+   height: 2rem;
+   background-color: #338833;
+   margin-top: 1rem;
+   cursor: pointer;
+}
+
+/*main#page-resetPassword form#authenticate fieldset div button#change a {*/
+/*   text-decoration: none;*/
+/*   color: #DDCCDD;*/
+/*}*/
+
+/*----------------------------------------
+ * Page viewPhotos.html specific.
+ *--------------------------------------*/
+main#page-viewPhotos {
+   width: 90%;
+   margin: 3rem auto;
+}
+
+main#page-viewPhotos form#upload-form fieldset {
+   border: 3px solid lightgray;
+   border-radius: 6px;
+   margin-bottom: 3rem;
+   padding: 1rem;
+}
+
+main#page-viewPhotos form#upload-form fieldset legend {
+   font-size: 3rem;
+   color: white;
+   margin-bottom: 1rem;
+}
+
+main#page-viewPhotos form#upload-form fieldset input#uploaded-file,
+main#page-viewPhotos form#upload-form fieldset button#upload {
+   font-size: 1rem;
+   vertical-align: middle;
+}
+
+main#page-viewPhotos form#upload-form fieldset button#upload {
+   width: 3.5rem;
+   height: 1.9rem;
+   border-radius: 6px;
+   cursor: pointer;
+}
+
+main#page-viewPhotos form#upload-form fieldset p#photo-metadata {
+   margin-top: 10px;
+}
+
+main#page-viewPhotos form#upload-form fieldset p#photo-metadata input {
+   border: 0.5px solid lightgray;
+   border-radius: 5px;
+   height: 1.5rem;
+   font-size: 0.9rem;
+   padding-left: 3px;
+}
+
+main#page-viewPhotos div#view p {
+   font-size: 1.5rem;
+   color: #6699CC;
+   margin-bottom: 1.5rem;
+}
+
+main#page-viewPhotos div#view table {
+   width: 100%;
+   border-collapse: collapse;
+}
+
+main#page-viewPhotos div#view table thead#col-headers tr {
+   background-color: #6699CC;
+   color: #CCBBCC;
+   height: 1.5rem;
+}
+
+main#page-viewPhotos div#view table thead#col-headers tr th:nth-child(1) a,
+main#page-viewPhotos div#view table thead#col-headers tr th:nth-child(2) a,
+main#page-viewPhotos div#view table thead#col-headers tr th:nth-child(3) a,
+main#page-viewPhotos div#view table thead#col-headers tr th:nth-child(4) a,
+main#page-viewPhotos div#view table thead#col-headers tr th:nth-child(5) a {
+   text-decoration: none;
+   color: #CCBBCC;
+/*   cursor: pointer;*/
+}
+
+main#page-viewPhotos div#view table tbody td {
+  background-color: white;
+   border: 1px solid #DDDDDD;
+   border-collapse: collapse;
+   padding-left: 3px;
+}
+
+main#page-viewPhotos div#view table tbody td.photo,
+main#page-viewPhotos div#view table tbody td.delete {
+   text-align: center;
+}
+
+main#page-viewPhotos div#view table tbody td.photo img {
+   width: 64px;
+   height: 64px;
+}
+
+main#page-viewPhotos div#view table tbody td.photo img:hover {
+   cursor: pointer;
+}
+
+main#page-viewPhotos div#view table tbody td.delete img {
+   width: 32px;
+   height: 32px;
+}

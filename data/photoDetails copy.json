@@ -1,0 +1,31 @@
+{
+   "photo": [
+    {
+    "filename": "beta.jpg",
+    "date": "2016.01.15",
+    "location": "nowhere",
+    "album": "beach",
+    "occassion": "tanning",
+    "photo": "../images/hw.png",
+    "delete": "../images/delete.png"
+    },
+    {
+    "filename": "alpha.jpg",
+    "date": "2016.01.26",
+    "location": "there",
+    "album": "mountain",
+    "occassion": "climbing",
+    "photo": "../images/hw.png",
+    "delete": "../images/delete.png"
+    },
+    {
+    "filename": "gamma.jpg",
+    "date": "2016.01.19",
+    "location": "here",
+    "album": "valley",
+    "occassion": "farming",
+    "photo": "../images/hw.png",
+    "delete": "../images/delete.png"
+    }
+    ]
+}
