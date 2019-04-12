@@ -11,7 +11,7 @@ echo <<<_HD
    <head>
    <title>Pharmacy Game Grade Portal</title>
       <meta charset="utf-8" />
-      <link rel="stylesheet" href="$relDir/css/site.css" />
+      <link rel="stylesheet" href="$relDir/css/site.css?v=2.1" />
    </head>
    
    <body>
