@@ -268,7 +268,7 @@ main#page-resetPassword form#authenticate {
 main#page-resetPassword form#authenticate fieldset p#instructions {
    font-size: 2rem;
    margin-bottom: 2rem;
-   color: #6699CC;
+   color: white;
 }
 
 main#page-resetPassword form#authenticate fieldset p input#password,
@@ -347,7 +347,7 @@ main#page-viewPhotos form#upload-form fieldset p#photo-metadata input {
 
 main#page-viewPhotos div#view p {
    font-size: 1.5rem;
-   color: #6699CC;
+   color: white;
    margin-bottom: 1.5rem;
 }
 
